@@ -9,7 +9,170 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
+img {
+  width: 100%;
+}
+
+.logo__link {
+  display: flex;
+  align-items: center;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  width: 4rem;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav__link-wrapper a {
+  text-decoration: none;
+  color: rgb(68, 131, 185);
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  padding: 0.6rem;
+  transition: 0.5s all ease;
+}
+
+.nav__link-wrapper a:hover {
+  background-color: #1f65c0;
+  color: aliceblue;
+}
+
+.container {
+  width: 27rem;
+  margin: auto;
+}
+
+.header {
+  background-color: #0101747b;
+  /* padding: 4rem 2rem 4rem 1rem; */
+  text-align: center;
+  color: #f8f8fd;
+  position: relative;
+}
+
+#head{
+  position: absolute;
+  top: 7rem;
+}
+
+.header__img{
+  z-index: -1;
+  position: relative;
+}
+
+.intro {
+  margin-bottom: 2rem;
+}
+
+.intro h2 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-top: 4rem;
+}
+
+.p__language {
+  margin-bottom: 2rem;
+}
+
+.list__gpc ol li {
+  margin-bottom: 2rem;
+}
+
+.list__gpc ol li p {
+  margin-bottom: 2rem;
+}
+
+.classification {
+  margin-bottom: 2rem;
+}
+
+.classification p {
+  margin-bottom: 0.7rem;
+}
+
+.classification ul li {
+  margin-bottom: 0.3rem;
+  color: #0247a1;
+  font-weight: 500;
+}
+
+.classification ul {
+  background-color: rgb(236, 238, 246);
+  padding: 0.6rem;
+  border-radius: 0.7rem;
+}
+
+.feature__head {
+  margin-bottom: 2rem;
+}
+.feature__head h3 {
+  margin-bottom: 0.7rem;
+}
+
+.feature__list ul li span {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.feature__list ul li {
+  margin-bottom: 2rem;
+}
+
+.c__g-p-languages p {
+  margin-bottom: 2rem;
+}
+
+.c__g-p-languages ol li span {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.c__g-p-languages ol li {
+    margin-bottom: 2rem;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8bb7f0;
+  margin: 3rem 0 0;
+  padding: 1rem 0 0;
+}
+
+footer small{
+  color: #f9f9f9;
+  font-weight: 500;
+}
+
+.brand{
+   margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+}
