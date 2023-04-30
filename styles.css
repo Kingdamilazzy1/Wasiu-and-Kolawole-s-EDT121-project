@@ -112,8 +112,17 @@ li {
   line-height: 1.5rem;
 }
 
+.home p{
+  margin-bottom: 2rem;
+
+}
+
 .epl p {
   line-height: 1.5rem;
+}
+
+.gpl{
+  margin-bottom: 2rem;
 }
 
 .epl img {
@@ -125,6 +134,12 @@ li {
 .list__gpc ol li {
   margin-bottom: 2rem;
   line-height: 1.5rem;
+}
+
+.list__language ol li{
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+  list-style: disc;
 }
 
 .list__gpc ol li p {
