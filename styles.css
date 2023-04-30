@@ -81,12 +81,32 @@ li {
   color: #f8f8fd;
   position: relative;
 }
+.head {
+  background-color: transparent;
+  /* padding: 4rem 2rem 4rem 1rem; */
+  text-align: center;
+  color: #1a1a8d;
+  position: relative;
+  display: grid;
+  height: 20vh;
+}
 
 #head {
   position: absolute;
   top: 7rem;
 }
 
+.header-title {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+h1.head__title {
+  top: 2rem !important;
+  text-align: center !important;
+}
 .header__img {
   z-index: -1;
   position: relative;
@@ -112,16 +132,15 @@ li {
   line-height: 1.5rem;
 }
 
-.home p{
+.home p {
   margin-bottom: 2rem;
-
 }
 
 .epl p {
   line-height: 1.5rem;
 }
 
-.gpl{
+.gpl {
   margin-bottom: 2rem;
 }
 
@@ -136,7 +155,7 @@ li {
   line-height: 1.5rem;
 }
 
-.list__language ol li{
+.list__language ol li {
   margin-bottom: 1.5rem;
   margin-left: 2rem;
   list-style: disc;
@@ -205,6 +224,37 @@ li {
   margin-bottom: 2rem;
 }
 
+.about__us {
+  margin-bottom: 2rem;
+}
+
+.ayo__his {
+  margin-bottom: 2rem;
+}
+
+.ayo__content {
+  margin-bottom: 2rem;
+}
+
+.ayo__img img{
+  border-radius: 0.8rem;
+  width: 70%;
+  display: flex;
+  margin: auto;
+  border: 2px solid #0247a1;
+}
+
+
+.ayo__content h3 {
+  background-color: #587fb3;
+  width: 4.5rem;
+  border-radius: 0.2rem;
+  color: #dbdbdb;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -244,6 +294,14 @@ footer small {
     justify-content: center;
     align-items: center;
   }
+
+  .head {
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .header__img {
     display: none;
   }
@@ -265,6 +323,18 @@ footer small {
     flex-direction: column;
     align-items: center;
     padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .ayo__his{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .OLA{
+    display: flex;
+    flex-direction: row-reverse;
   }
 }
 
